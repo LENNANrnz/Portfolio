@@ -4,18 +4,17 @@ margin: 0;
 box-sizing: border-box;}
 body {
 	height: 120vh;
-    background-color: rgba(0, 0, 0, 0.779);}
+    background-color: rgb(19, 18, 18)}
 
 header {text-align: right;
 position: relative;
 height: 350;
-background-color:#5f05e6 ;
 width: 100%;
 }
 ul {
 	text-align: right;
 	width: 100%;
-	background: rgb(95, 5, 230);
+	background-image: linear-gradient(to right, #5f05e6, purple);
 	top: 0;}
 
     ul li {
@@ -43,11 +42,13 @@ ul {
 		width: 100%;
 	height: 505px;}
 
-
 		div.intro1 {position: absolute;
+			color: white;
 		top: 250px;
 		left: 250px;
-	text-align: center;}
+	text-align: center;
+ line-height: 40px;
+text-shadow: 1px 1px black;}
 
 		input.intro1 {width: 125px;
 		height: 50px;
@@ -62,9 +63,32 @@ ul {
 		border-radius: 15px;
 		background-color: #5f05e6;
 		color: black;
-		text-shadow: 1px 1px 1px white;
 		transition: all.4s;
 	}
+
+		img.intro2 {position: absolute;
+		width: 250px;
+	left: 750px;
+	top: 125px;
+border-radius: 100%;
+box-shadow: 10px 10px 70px 10px black;}
+
+img.intro2:hover {
+	position: absolute;
+	width: 300px;
+	left: 750px;
+	top: 125px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 70px 10px black;
+transition: all.4s;}
+
+img.intro2:not(:hover) {position: absolute;
+	width: 250px;
+left: 750px;
+top: 125px;
+border-radius: 100%;
+box-shadow: 10px 10px 70px 10px black;
+transition: all.4s;}
 
 
 		/* arquivo html
