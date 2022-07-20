@@ -7,7 +7,7 @@ body {
     background-color: rgba(0, 0, 0, 0.779);}
 
 header {text-align: right;
-position: fixed;
+position: relative;
 height: 350;
 background-color:#5f05e6 ;
 width: 100%;
@@ -39,7 +39,32 @@ ul {
             transition: .5s;
         }
 	
+		div.intro {background-image: linear-gradient(45deg, #5f05e6, purple);
+		width: 100%;
+	height: 505px;}
 
+
+		div.intro1 {position: absolute;
+		top: 250px;
+		left: 250px;
+	text-align: center;}
+
+		input.intro1 {width: 125px;
+		height: 50px;
+		margin-top: 5px;
+		border-radius: 15px;
+		background-color: rgba(255, 255, 255, 0);
+		color: white;
+	}
+	input.intro1:hover {width: 150px;
+		height: 50px;
+		margin-top: 5px;
+		border-radius: 15px;
+		background-color: #5f05e6;
+		color: black;
+		text-shadow: 1px 1px 1px white;
+		transition: all.4s;
+	}
 
 
 		/* arquivo html
