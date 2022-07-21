@@ -98,11 +98,13 @@ height: 570px;
 margin-top: 250px;}
 
 h1.sobremim1 {position: absolute;
+	color: white;
 top: 15%;
 left: 50%;
 transform: translate(-50%);}
 
 p.sobremim1 {position: absolute;
+	color: white;
 	width: 250px;
 	top: 50%;
 	left: 50%;
