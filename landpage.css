@@ -2,11 +2,20 @@
 *{padding: 0;
 margin: 0;
 box-sizing: border-box;}
+
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {background-color: transparent;}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(49, 49, 49);
+	border-radius: 25px;}
+
+
 body {
 	height: 500vh;
     background-image: linear-gradient(45deg, #5f05e6, purple);
 	background-repeat: no-repeat;
-font-family: Arial, Helvetica, sans-serif;}
+font-family: Arial, Helvetica, sans-serif;
+overflow: overlay;}
 
 header {text-align: right;
 position: relative;
@@ -41,7 +50,7 @@ ul {
 	
 		div.intro { position: relative;
 		width: 100%;
-	height: 500px;
+	height: 505px;
 }
 
 		div.intro1 {position: absolute;
@@ -100,20 +109,55 @@ transition: all.4s;}
 
 div.sobremim {background-color:#ff000000;
 	position: relative;
-height: 570px;
-margin-top: 250px;}
+	text-align: center;
+height: 570px;}
 
 h1.sobremim1 {position: absolute;
 	color: white;
 top: 15%;
 left: 50%;
-transform: translate(-50%);}
+transform: translate(-50%);
+text-shadow: 1px 1px black;}
+
+h2.sobremim1 {position: absolute;
+	font-size: 16px;
+	color: white;
+top: 30%;
+left: 50%;
+transform: translate(-50%);
+text-shadow: 1px 1px black;}
 
 p.sobremim1 {position: absolute;
 	color: white;
-	width: 250px;
-	top: 50%;
+	text-align: justify;
+	width: 350px;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%);
+	text-shadow: 1px 1px black;
+	border-radius: 10px;
+	text-indent: 2ch;
 }
+
+
+div.mediaicon {position: absolute;
+margin-bottom: 0;
+width: 100%;
+top: 70%;
+left: 50%;
+transform: translate(-50%);
+word-spacing: 3ch;}
+
+div.mediaicon a {color: white;}
+
+div.projetos {background-color:#ff000000;
+	position: relative;
+	text-align: center;
+height: 570px;}
+
+h1.projetos {color: white;
+position: absolute;
+left: 50%;
+top: 15%;
+transform: translate(-50%);}
 
