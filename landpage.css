@@ -150,6 +150,9 @@ word-spacing: 3ch;}
 
 div.mediaicon a {color: white;}
 
+div.mediaicon a:hover {color: black;
+border-radius: 10px;}
+
 div.projetos {background-color:#ff000000;
 	position: relative;
 	text-align: center;
