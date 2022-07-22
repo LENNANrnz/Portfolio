@@ -1,0 +1,112 @@
+
+div.habilidades {text-align: center;
+height: 550px;
+border: 1px solid black;
+display: flex;
+position: relative;}
+
+h1.habilidades {position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.boxcontainer {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.boxcontainer .box{
+position: relative;
+width: 150px;
+height: 150px;
+padding: 25px;
+background-color: transparent;
+color: white;
+border-radius: 4px;
+margin: 20px;
+box-sizing: border-box;
+overflow: hidden;
+text-align: center;}
+
+.boxcontainer .box .boxicon1 {position: relative;
+width: 80px;
+height: 80px;
+color: #F25320;
+background: rgba(0, 0, 0, 0);
+display: flex;
+justify-content: center;
+border-radius: 50%;
+align-items: center;
+margin: 0 auto;
+font-size: 90px;
+font-weight: 700;
+transition: 1s;}
+
+.boxcontainer .box .boxicon2 {position: relative;
+    width: 80px;
+    height: 80px;
+    color: #0048DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 90px;
+    font-weight: 700;
+    transition: 1s;}
+
+    .boxcontainer .box .boxicon3 {position: relative;
+        width: 80px;
+        height: 80px;
+        color: #EAD41C;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid #EAD41C;
+    
+        font-size: 90px;
+        font-weight: 700;
+        transition: 1s;}
+
+.boxcontainer .box:nth-child(1) .boxicon1
+{box-shadow: 0 0 0 0;}
+
+.boxcontainer .box:nth-child(1):hover .boxicon1
+{box-shadow: 0 0 0 400px #F25320;
+background-color: white;}
+
+.boxcontainer .box:nth-child(2) .boxicon2
+{box-shadow: 0 0 0 0;
+}
+
+.boxcontainer .box:nth-child(2):hover .boxicon2
+{box-shadow: 0 0 0 400px #0048DC;
+    background-color: white;}
+
+.boxcontainer .box:nth-child(3) .boxicon3
+{box-shadow: 0 0 0 0;}
+
+.boxcontainer .box:nth-child(3):hover .boxicon3
+{box-shadow: 0 0 0 400px #EAD41C;}
+
+.boxcontainer .box .boxcontent {position: relative;
+z-index: 1;
+transition: .5s;}
+
+.boxcontainer .box:hover .boxcontent
+{color: black;}
+
+.boxcontainer .box:hover .boxcontent p {
+    margin: 0;
+     padding: 0;
+}

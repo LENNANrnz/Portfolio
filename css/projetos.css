@@ -8,6 +8,7 @@ align-items: center;
 height: 570px;}
 
 h1.projetos {color: white;
+	text-shadow: 1px 1px black;
 position: absolute;
 left: 50%;
 top: 15%;

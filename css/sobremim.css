@@ -39,7 +39,8 @@ left: 50%;
 transform: translate(-50%);
 word-spacing: 3ch;}
 
-div.mediaicon a {color: white;}
+div.mediaicon a {color: white;
+text-shadow: 1px 1px black;}
 
 div.mediaicon a:hover {color: black;
 border-radius: 10px;}
