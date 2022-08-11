@@ -1,6 +1,7 @@
 footer {position: relative;
 height:60px;
 background-color: rgb(48, 48, 48);
+bottom: 0;
 }
 
 footer .textfoot {color: white;
