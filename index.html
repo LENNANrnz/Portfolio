@@ -1,138 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="landpage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="css/intro.css">
-    <link rel="stylesheet" href="css/sobremim.css">
-    <link rel="stylesheet" href="css/projetos.css">
-    <link rel="stylesheet" href="css/habilidades.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <title>LENNANrnz.dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="header/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <title>My Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav class="mymenu">
-            <ul>
-                <li><a href="#sobremim">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="loginpg/loginpg.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+  
+    <nav class="navbar">
+        <ul>
+            <li><a class="navbtn" href="">About Me</a></li>
+            <li><a class="navbtn" href="">Project</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img class="myselftop" src="img/myself.png" alt=""></a> </li>
+            <li><a class="navbtn" href="">Skills</a></li>
+            <li><a class="navbtn" href="">Contact</a></li>
+        </ul>
+    </nav>
 
-    <main>
-        <div class="intro">
-            <div class="intro1">
-                <h1 class="intro1">Lennan Renzo</h1>
-                <p class="intro1">Desenvolvedor Front-End</p>
-                <input class="intro1" type=button onClick="
-                parent.location='https://www.linkedin.com/in/lennan-renzo-942bb6206/'" 
-                value='Linkedin '>
-            </a>  
-
-                <input  class="intro1" type=button onClick="
-                parent.location='https://github.com/LENNANrnz'" 
-                value='GitHub'></a>  
-            </div>
-                
-
-            <div class="intro2">
-                <img class="intro2" src="imagens/perfil.jpg" alt="">
-            </div>
+    <nav id="navbarmobile" class="navbarmobile">
+        <ul>
+           
+            <li><a onclick="corbar()" id="navbtnmobile" class="navbtnmobile" href="">About Me</a></li>
+            <li><a onclick="corbar()" id="navbtnmobile" class="navbtnmobile" href="">Project</a></li>
+            <li><a onclick="corbar()" id="navbtnmobile" class="navbtnmobile" href="">Skills</a></li>
+            <li><a onclick="corbar()" id="navbtnmobile" class="navbtnmobile" href="">Contact</a></li>
+        
+         </ul>
         </div>
+    </nav>
+    <div onclick="navbar()" id="botaomenu" class="botaomenu">
+        <div id="btnmenus1" class="dentrobtnmenu"></div>
+        <div id="btnmenus2" class="dentrobtnmenu"></div>
+        <div id="btnmenus3" class="dentrobtnmenu"></div>
+    </div>
 
-
-        <div id="sobremim" class="sobremim">
-            <h1 class="sobremim1">Sobre Mim</h1>
-            <h2 class="sobremim1"> Angra Dos Reis, Rio De Janeiro</h2>
-                <p class="sobremim1">Olá, tudo bem? Sou um programador novo no mercado e apaixonado por tecnologia e suas diferentes formas. Gosto de desafios e espero evoluir muito nessa área.
-                Pretendo me tornar um grande profissional e concluir grandes projetos ao longo da minha carreira. </p>
-
-               <div class="mediaicon">
-                <a href="https://github.com/LENNANrnz" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://www.instagram.com/lennanrnz/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/lennan-renzo-942bb6206/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://www.facebook.com/LENNANrnz/" target="_blank"><i class="fab fa-facebook fa-2x "></i></a>
-                <a href="https://twitter.com/lennanrnz" target="_blank"><i class="fab fa-twitter fa-2x "></i></a>
-
-               </div>
-        </div>
-
-
-
-        <div id="projetos" class="projetos">
-            <h1 class="projetos">Projetos</h1>
-            <div class="scroll">
-                <button onclick="scrollhorizontally(1)" id="btnleft" class="btnscroll"><i class="fa-solid fa-chevron-left"></i></button>
-                <button onclick="scrollhorizontally(-1)" id="btnright" class="btnscroll"><i class="fa-solid fa-chevron-right"></i></button>
-                    <div class="scrollcontainer">
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                        <div class="scrollcontent"><img src="imagens/soon2.png" alt=""></div>
-                    </div>
-            </div>
-        </div>
-
-
-
-        <div id="habilidades" class="habilidades">
-                <h1 class="habilidades">Habilidades</h1>
-             <div class="boxcontainer">
-                <div class="box">
-                    <div class="boxicon1"><i class="fa-brands fa-html5"></i></div>
-                    <div class="boxcontent">
-                        <h3 class="boxtext">HTML</h3>
-                        <p class="boxtext"></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="boxicon2"><i class="fa-brands fa-css3-alt"></i></div>
-                    <div class="boxcontent">
-                        <h3 class="boxtext">CSS</h3>
-                        <p class="boxtext"></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="boxicon3"><i class="fa-brands fa-js-square"></i></div>
-                    <div class="boxcontent">
-                        <h3 class="boxtext">JavaScript</h3>
-                        <p class="boxtext"></p>
-                    </div>
-                </div>
-             </div>
-        </div>
-    </main>
-
-
-
-    <footer>
-        <div class="textfoot">
-            <p>E-mail: lennancontato@gmail.com<br>
-            Feito por Lennan Renzo<br>
-        </p>
-        </div>
-        <div class="iconfoot">
-            <a href="https://github.com/LENNANrnz"><i class="fa-brands fa-github-square"></i></a>
-        <a href="https://www.linkedin.com/in/lennan-renzo-942bb6206/"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-    </footer>
-<script src="js/projetos.js"></script>
+</header>
+    
+<script src="header/menumobile.js"></script>
+<script src="header/menubtns.js"></script>
 </body>
 </html>
-
