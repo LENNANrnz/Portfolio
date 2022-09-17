@@ -1,0 +1,18 @@
+
+
+.about_me {
+    text-align: center;
+    
+}
+
+.about_me h1 {
+
+    margin-bottom: 25px;
+}
+
+.about_me p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-justify: auto;
+}

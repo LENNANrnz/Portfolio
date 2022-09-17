@@ -20,6 +20,10 @@ animation: color 20s ease infinite;
 overflow: overlay;
 }
 
+header {
+    height: 75vh;
+}
+
 @keyframes color {
     0%{background-position: 0 50%;}
     50% {background-position: 100% 50% ;}
@@ -89,7 +93,7 @@ transition: all .5s;}
 
 @media (max-width:685px) {
 
-    body{height:500vh;}
+    body{height:100vh;}
 
     nav {display: none;}
 
