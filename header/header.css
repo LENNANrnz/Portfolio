@@ -56,8 +56,8 @@ transition: color .5s .25s;}
 .navbtn::before, .navbtn::after {content: '';
 position: absolute;
 top: 0;
-width: 50%;
-height: 100%;
+width: 51%;
+height: 101%;
 background-color: #eef3d2;
 z-index: -1;
 transform: scaleX(0);

@@ -2,11 +2,13 @@
 
 .about_me {
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
     
 }
 
 .about_me h1 {
-
+    padding-top: 150px;
     margin-bottom: 25px;
 }
 
@@ -16,3 +18,5 @@
     margin: auto;
     text-justify: auto;
 }
+
+
