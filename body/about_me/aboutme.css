@@ -1,26 +1,123 @@
-
-
 .about_me {
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    
-}
-
-.about_me h1 {
-    padding-top: 150px;
-    margin-bottom: 25px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 100vh;
+  text-align: justify;
+  align-items: center;
+  display: flex;
+  position: relative;
 }
 
 .about_me p {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    text-justify: auto;
+  text-justify: auto;
+  font-size: 22px;
+  line-height: 40px;
+  width: 600px;
+  margin-left: 15%;
+  margin-right: 5%;
 }
 
 #imagem_aboutme {
-    
+  margin-left: 15%;
+  border-radius: 15px;
+  width: 30%;
 }
 
+@media (max-width: 1180px) {
+  .about_me {
+    display: inline-block;
+    height: 100vh;
+  }
 
+  .about_me p {
+    line-height: 27px;
+    padding-top: 50px;
+    margin: auto;
+    width: 90%;
+  }
+
+  #imagem_aboutme {
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 150px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 556px) {
+  .about_me {
+    display: inline-block;
+    height: 100vh;
+  }
+
+  .about_me p {
+    margin: auto;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 25px;
+
+    width: 90%;
+  }
+
+  #imagem_aboutme {
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 100px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 390px) {
+  .about_me {
+    display: inline-block;
+    height: 100vh;
+  }
+
+  .about_me p {
+    margin: auto;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 25px;
+
+    width: 90%;
+  }
+
+  #imagem_aboutme {
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 50px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 320px) {
+  .about_me {
+    display: inline-block;
+    height: 100vh;
+  }
+
+  .about_me p {
+    margin: auto;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 5px;
+
+    width: 90%;
+  }
+
+  #imagem_aboutme {
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 35px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 50%;
+  }
+}
