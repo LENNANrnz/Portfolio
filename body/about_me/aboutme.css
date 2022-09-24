@@ -32,6 +32,29 @@
 
   .about_me p {
     line-height: 27px;
+    padding-top: 35px;
+    margin: auto;
+    width: 90%;
+  }
+
+  #imagem_aboutme {
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 75px;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    width: 35%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about_me {
+    display: inline-block;
+    height: 100vh;
+  }
+
+  .about_me p {
+    line-height: 27px;
     padding-top: 50px;
     margin: auto;
     width: 90%;
@@ -40,10 +63,10 @@
   #imagem_aboutme {
     text-align: center;
     border-radius: 15px;
-    padding-top: 150px;
+    padding-top: 250px;
     transform: translate(-50%, 0%);
     margin-left: 50%;
-    width: 60%;
+    width: 30%;
   }
 }
 
@@ -108,7 +131,6 @@
     font-size: 14px;
     line-height: 16px;
     padding-top: 5px;
-
     width: 90%;
   }
 
