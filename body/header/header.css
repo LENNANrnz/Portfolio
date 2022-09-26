@@ -10,7 +10,11 @@ font-family: 'Poppins';}
 	border-radius: 25px;}
 
 body {
-background-image: linear-gradient(45deg, #5800FF, #0096FF, #00D7FF, #72FFFF);
+background-color: black;
+}
+
+header {
+    background-image: linear-gradient(45deg, #5800FF, #0096FF, #00D7FF, #72FFFF);
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -18,9 +22,6 @@ justify-content: center;
 background-size: 400% 400%;
 animation: color 20s ease infinite;
 overflow: overlay;
-}
-
-header {
     height: 100vh;
 }
 
