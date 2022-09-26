@@ -1,6 +1,6 @@
 .my_Projectsdiv {
   height: 100vh;
- background-color: white;
+ background-color: black;
  display: grid;
   place-items: center;
   overflow: hidden;
