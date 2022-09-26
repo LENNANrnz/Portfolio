@@ -45,6 +45,10 @@
               perspective: 1000px;
   }
   
+.front {
+    background-color: white;
+}
+
   .front,
   .back{
     background-size: cover;
@@ -67,10 +71,8 @@
   }
   
   .back{
-    background: #cedce7;
-    background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+    background: #000;
+   
   }
   
   .front:after{
@@ -174,18 +176,27 @@
   }
   
   @media screen and (max-width: 64rem){
+
+    .myskills{
+        height: 100%;}
     .col{
       width: calc(33.333333% - 2rem);
     }
   }
   
   @media screen and (max-width: 48rem){
+
+    .myskills{
+        height: 100%;}
     .col{
       width: calc(50% - 2rem);
     }
   }
   
   @media screen and (max-width: 32rem){
+
+    .myskills{
+        height: 100%;}
     .col{
       width: 100%;
       margin: 0 0 2rem 0;

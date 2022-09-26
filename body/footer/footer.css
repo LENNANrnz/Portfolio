@@ -1,0 +1,20 @@
+footer {
+    
+ 
+    background-image: linear-gradient(45deg, #5800FF, #0096FF, #00D7FF, #72FFFF);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+justify-content: center;
+background-size: 400% 400%;
+animation: color 20s ease infinite;
+overflow: overlay;
+    height: 100vh;
+}
+
+@keyframes color {
+    0%{background-position: 0 50%;}
+    50% {background-position: 100% 50% ;}
+    100% {background-position: 0% 50%;}
+    
+} 
