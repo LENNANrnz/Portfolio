@@ -39,6 +39,8 @@
 
   .page-content {
     grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 20vh;
   }
 }
 
@@ -188,3 +190,4 @@
     transition-duration: 0s;
   }
 }
+
