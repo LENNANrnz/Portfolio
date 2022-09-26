@@ -4,12 +4,14 @@
 }
 
 .h1kilss{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Montserrat';
     font-weight: normal;
     color: #444;
     text-align: center;
     margin: 2rem 0;
+    padding-top: 50px;
+    
   }
 
 .wrapper{
@@ -27,6 +29,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 5em;
   }
   
   .col{
