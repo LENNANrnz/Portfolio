@@ -1,6 +1,5 @@
 footer {
-    
- 
+    position: relative;
     background-image: linear-gradient(45deg, #5800FF, #0096FF, #00D7FF, #72FFFF);
 background-size: cover;
 background-attachment: fixed;
@@ -9,7 +8,7 @@ justify-content: center;
 background-size: 400% 400%;
 animation: color 20s ease infinite;
 overflow: hidden;
-    height: 100vh;
+    height: 12vh;
 }
 
 @keyframes color {
@@ -18,3 +17,83 @@ overflow: hidden;
     100% {background-position: 0% 50%;}
     
 } 
+
+
+
+.footericon {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+  }
+  
+  .footericon li {
+    list-style: none;
+  }
+  
+  .footericon li a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  .footericon li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  .footericon li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .footericon li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  .footericon li a:hover:before {
+    top: 0;
+  }
+  
+  .footericon li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  .footericon li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+  .footericon li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+  .footericon li:nth-child(4) a:before {
+    background: #dd4b39;
+  }
+  .footericon li:nth-child(5) a:before {
+    background: #bc2a8d;
+  }
+  .footericon li:nth-child(6) a:before {
+    background: #000;
+  }
