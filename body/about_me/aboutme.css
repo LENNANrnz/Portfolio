@@ -7,6 +7,7 @@
   align-items: center;
   display: flex;
   position: relative;
+
 }
 
 .about_me p {
@@ -32,7 +33,7 @@
 
   .about_me p {
     line-height: 27px;
-    padding-top: 35px;
+    padding-top: 30px;
     margin: auto;
     width: 90%;
   }
@@ -40,7 +41,7 @@
   #imagem_aboutme {
     text-align: center;
     border-radius: 15px;
-    padding-top: 75px;
+    padding-top: 50px;
     transform: translate(-50%, 0%);
     margin-left: 50%;
     width: 35%;
@@ -55,7 +56,7 @@
 
   .about_me p {
     line-height: 27px;
-    padding-top: 50px;
+    padding-top: 45px;
     margin: auto;
     width: 90%;
   }
@@ -63,7 +64,7 @@
   #imagem_aboutme {
     text-align: center;
     border-radius: 15px;
-    padding-top: 250px;
+    padding-top: 200px;
     transform: translate(-50%, 0%);
     margin-left: 50%;
     width: 30%;
@@ -80,7 +81,7 @@
     margin: auto;
     font-size: 16px;
     line-height: 20px;
-    padding-top: 25px;
+    padding-top: 75px;
 
     width: 90%;
   }
@@ -88,7 +89,7 @@
   #imagem_aboutme {
     border-radius: 15px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
     transform: translate(-50%, 0%);
     margin-left: 50%;
     width: 60%;
@@ -105,7 +106,7 @@
     margin: auto;
     font-size: 16px;
     line-height: 20px;
-    padding-top: 25px;
+    padding-top: 50px;
 
     width: 90%;
   }
@@ -113,7 +114,7 @@
   #imagem_aboutme {
     border-radius: 15px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 110px;
     transform: translate(-50%, 0%);
     margin-left: 50%;
     width: 60%;
@@ -130,7 +131,7 @@
     margin: auto;
     font-size: 14px;
     line-height: 16px;
-    padding-top: 5px;
+    padding-top: 35px;
     width: 90%;
   }
 

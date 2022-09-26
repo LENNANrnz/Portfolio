@@ -3,6 +3,8 @@
  background-color: white;
  display: grid;
   place-items: center;
+  overflow: hidden;
+  padding: 0;
 }
 
 :root {
