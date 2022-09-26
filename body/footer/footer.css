@@ -97,3 +97,20 @@ overflow: hidden;
   .footericon li:nth-child(6) a:before {
     background: #000;
   }
+
+  @media (max-width: 600px) {
+     
+    .footericon {
+      padding-bottom: 25px;
+      transform:scale(0.55) translateX(-90%);
+      
+    }
+  }
+  @media (max-width: 340px) {
+     
+    .footericon {
+      padding:0;
+      transform:scale(0.55) translateX(-90%);
+      
+    }
+  }
