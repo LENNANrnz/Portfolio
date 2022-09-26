@@ -1,6 +1,7 @@
 .myskills{
     height: 100vh;
     background-color: lightgray;
+    overflow: hidden;
 }
 
 .h1kilss{
